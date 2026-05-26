@@ -23,7 +23,7 @@ jobs:
 
       - uses: jfrog/frogbot@v2
         with:
-          oidc-provider-name: 'sumanthsvjfrog/worksafenpm-demo@github'
+          oidc-provider-name: 'sumanthsvjfrog/frogbotdemo-worksafe@github'
       
         env:
           # [Mandatory]
