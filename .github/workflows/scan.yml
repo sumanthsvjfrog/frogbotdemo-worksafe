@@ -37,5 +37,5 @@ jobs:
 
           # [Mandatory]
           # The GitHub token automatically generated for the job
-          JF_GIT_TOKEN: ${{ secrets.JF_GITHUB_TOKEN }}
+          JF_GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         #  JF_WATCHES: "worksafeperm-high-sec-local"
