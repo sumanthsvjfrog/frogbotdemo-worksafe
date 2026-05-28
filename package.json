@@ -11,6 +11,8 @@
     "lodash": "^4.17.21",
     "nodemon": "^2.0.22",
     "send": "^0.16.2",
+    "minimist": "1.2.5",
+    "ansi-regex": "3.0.0",
     "axios": "1.13.6"
   },
   "devDependencies": {
