@@ -1,3 +1,5 @@
+my current feature branch has
+package.json
 {
   "name": "psjfrog-npm-example",
   "version": "0.0.1",
@@ -11,9 +13,16 @@
     "lodash": "^4.17.21",
     "nodemon": "^2.0.22",
     "send": "^0.16.2",
+    "minimist": "1.2.5",
+    "ansi-regex": "3.0.0",
     "axios": "1.13.6"
   },
   "devDependencies": {
     "debug": "^4.1.1"
+  },
+  "secrets": {
+    "db_password": "SuperSecret123!",
+    "api_key": "API_KEY_XYZ123",
+    "jwt_secret": "fakejwtsecret456"
   }
 }
