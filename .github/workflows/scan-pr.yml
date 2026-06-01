@@ -41,4 +41,4 @@ jobs:
           # The GitHub token automatically generated for the job
           JF_GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           JF_WATCHES: "worksafe-sec-watch"
-          JF_PR_SHOW_SECRETS_COMMENTS: "true"
+          JF_PR_SHOW_SECRETS_COMMENTS: "false"
