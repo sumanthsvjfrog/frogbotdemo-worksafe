@@ -15,10 +15,5 @@
   },
   "devDependencies": {
     "debug": "^4.1.1"
-  },
-  "secrets": {
-    "db_password": "SuperSecret123!",
-    "api_key": "API_KEY_XYZ123",
-    "jwt_secret": "fakejwtsecret456"
   }
 }
